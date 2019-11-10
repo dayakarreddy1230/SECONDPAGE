@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+.background {
+  background-image: url("/public/flightimage.jpg");
+  }
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #e95612;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: rgb(235, 19, 19);
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: #f7f9fa;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #f70612;
+}
+
+.bm-menu {
+  background:rgb(241, 240, 240);
+  padding: 2.0em 1.0em 0;
+  font-size: 1.5em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #cfc128;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(238, 24, 24);
+  overflow: auto;
+  display: block;
+}
+
+.navbar h2{
+  float: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size:25px;
+  font-weight: bold;
+}
+
+
+  
+
+
